@@ -1,9 +1,12 @@
 body{
-  background-color: #444444;
   color:#dddddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
   text-align: center; 
+  background-image: url('https://sites.psu.edu/garyyoung/files/2016/06/background-1-1024x549.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover; 
 }
 
 Ul{
@@ -24,9 +27,13 @@ Ul{
   background-color: 
 }
 
-.exp-links{ 
+
+.exp-links{
+  
   color:black;
+ 
 }
+
 
 .exp-header{
   text-align: center;
@@ -36,4 +43,5 @@ Ul{
   background-color:rgba(0,0,0, 0.01)
   
 }
+
 
