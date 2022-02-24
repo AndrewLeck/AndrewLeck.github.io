@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <!-- What I've added since my last submmittion.
+   I've added these comments at the top of my submittion for easy access.
+   I've added a background image.
+   I've turned my photo into a clickable link so it directs you to my collegite track profile opeinging a new tab. 
+   You are able to click on "Concorida University St.Paul" and it directs you to my college website in a new tab. 
+   You are able to click on "Watch MN" and it directs you to their website in a new tab to learn more about who they are.
+   You're able  to click on "Hennepin County" and it directs you to their website in a new tabe to learn more about probation. 
+   I've created a black border around both of my Ul list and changed the color of the text inside.
+   I changed the color of my clickable links to flow better and for visablity. Ive also catogorized them with a class tag so I was able to target them directly in CSS-->
+  <head>
+  <style> 
+    body{
+       background-image: url('https://sites.psu.edu/garyyoung/files/2016/06/background-1-1024x549.jpg');
+       background-repeat:no-repeat;
+       background-attachment:fixed;
+       background-size:cover;   
+    }
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title> Andrew Leck Resume</title>
   <link rel="stylesheet" href="style.css" />
+   
+</style>   
 </head>
 <body>
-
+  
   <div> 
     <h1> Andrew Leck Resume </h1>
-    <p> I am a highly motivated person who is willing to take on a new challenge head on.</p>
-    <a href="https://cspbears.com/sports/mens-track-and-field/roster/andrew--leck/5477">
+    <h2> Who am I?</h2>
+    <p> I am a highly motivated person who is willing to take on a new challenge head on. I love problem solving and working with effeciency. I have strong work ethic and hunger for learning.</p>
+    <a href="https://cspbears.com/sports/mens-track-and-field/roster/andrew--leck/5477" target="_blank">
     <img src="https://cspbears.com/images/2018/10/26/MTF_Leck_Andrew.jpg?width=146"/>
     </a> 
   </div>
@@ -21,28 +40,28 @@
   </div>
   
   <div>
-    <u><h4>Hennepin County </h4></u>
+    <u><h4><a href="https://www.hennepin.us/residents/public-safety/adult-probation" target="_blank" class="exp-links"> Hennepin County </h4></u></a>
     <h5> Probation Officer </h5>
     <h6> March 2020- January 2022 </h6>
     
-    <ul>
-      <li>Comminicate with multiple people with different backgrounds effeciently</li>
+    <ul class="list">
+      <li>Communicate with multiple people with different backgrounds effeciently</li>
       <li> Effeciently wokred in a high stress enviorment</li>
       <li> Ability to complete multiple tasks within a timely manner</li>
-      <li>Ability to learn and adaptve to new ongoing policy's</li>
+      <li>Ability to learn and adaptve to new ongoing policy's and training</li>
     </ul>
     
   </div>
- 
+  
   <div>
-  <h4><a href="http://watchmn.org/"> Watch MN </h4></a>
+  <h4><a href="http://watchmn.org/ "target="_blank" class="exp-links"> Watch MN </h4></a>
     <h5> Intern </h5>
     <h6> January 2019- April 2019 </h6>
     
-    <ul>
+    <ul class="list">
       <li> Attending court hearings</li>
       <li> Assist with training new interns </li>
-      <li> Research ccourt cases </li>
+      <li> Research court cases </li>
     </ul>
    </div>
   
@@ -51,10 +70,9 @@
   </div>
   
   <div>
-    <h4> <a href="https://www.csp.edu/">Concordia University St. Paul Minnesota</h4></a>
+    <h4> <a href="https://www.csp.edu/"target="_blank" class="exp-links"> Concordia University St. Paul Minnesota </h4></a>
     <h5>Bachlor of arts - Criminal Justice</h5>
-    <h6> Class of 2019</h6>
-     
-  </div> 
-</body>
+    <h6> Enrolled in 2016 graduated in 2019</h6>   
+  </div>
+</body>   
 </html>
